@@ -1,0 +1,96 @@
+body,html{height: 100%;}
+*{box-sizing=border-box;}
+.bg-img{background-image: url('1.jpg');
+min-height: 100%;
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+}
+.container{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  center:0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: transparent;
+font-size: 18px;
+}
+input[type=text], input[type=password] {
+  width: 85%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border-radius: 12px;
+  background: lightblue;
+  color: black;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: none;
+  outline: none;
+
+}
+
+.button{
+  position: center;
+  text-align:center;
+    margin-top: 0;
+    margin-bottom: right;
+
+  text-decoration: none;
+  color:white;background: #191;
+  padding: 1em 2em 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 4px solid#333;
+  border-radius: 12px;
+
+}
+.button:hover{
+  opacity: 10;
+
+}
+h1{color: dark black;
+  text-align: center;
+  font-weight: bold;
+}
+.button-1{
+  margin-top: 0;
+  margin-bottom: center;
+
+text-decoration: none;
+color:white;background: #191;
+padding: 1em 2em 1em 2em;
+text-transform: uppercase;
+font-weight: bold;
+border-bottom: 4px solid#333;
+border-radius: 12px;
+
+}
+.button-2{
+
+  margin-top: 0;
+  margin-bottom: center;
+margin-left: 60px;
+text-decoration: none;
+color:white;background: #191;
+padding: 1em 2em 1em 2em;
+text-transform: uppercase;
+font-weight: bold;
+border-bottom: 4px solid#333;
+border-radius: 12px;
+
+}
+button-1:hover{position: sticky;
+}
+.container-1{position: absolute;
+left: 35%;
+top: 20%;
+margin: 20px;
+max-width: 300px;
+padding: 16px;
+background-color: transparent;
+}
